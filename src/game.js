@@ -73,9 +73,9 @@ function create () {
   //  Enable physics for any object that is created in this group
   diamonds.enableBody = true
 
-  //  Create 12 diamonds evenly spaced apart
-  for (var i = 0; i < 12; i++) {
-    const diamond = diamonds.create(i * 70, 0, 'diamond')
+  //  Create 26 diamonds evenly spaced apart
+  for (var i = 0; i < 26; i++) {
+    const diamond = diamonds.create(i * 20, 0, 'diamond')
 
     //  Drop em from the sky and bounce a bit
     diamond.body.gravity.y = 1000
